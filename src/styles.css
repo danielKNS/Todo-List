@@ -1,0 +1,24 @@
+:root {
+  --gray-100: #f2f2f2;
+  --gray-500: #262626;
+  --gray-700: #0d0d0d;
+
+  --blue-500: #4ea8de;
+  --blue-700: #1e6f9f;
+}
+
+body {
+  background: var(--gray-500);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background: var(--gray-500);
+  color: var(--gray-100);
+  -webkit-font-smoothing: aintialiased;
+}
